@@ -7,7 +7,12 @@
         'src/init.cc',
         'src/write_png.cc',
         'src/compress.cc'
-      ]
+      ],
+      'xcode_settings': {
+        'OTHER_CFLAGS': [
+          '-stdlib=libc++'
+        ],
+      },
     }
   ]
 }
